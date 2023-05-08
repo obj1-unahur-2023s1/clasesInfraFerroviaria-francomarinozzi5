@@ -1,0 +1,9 @@
+import InfraestructuraFerroviaria.*
+describe "Tests de vagones de pasajeros"{
+test "Un vagon" {
+	const unVagon = new VagonDePasajeros(ancho = 2, largo = 10)
+	unVagon.ordenarBanio()
+	assert.equals(unVagon.capacidadTotalPasajeros(),80 )	
+
+}
+}
